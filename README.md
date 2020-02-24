@@ -14,5 +14,5 @@ I was curious of how this sample would translate into F# code, and it turned out
 ## Building and running the app
 
 * Install JS dependencies: `npm install`
-* Go into test: `dotnet build`
+* Go into tests: `dotnet build`
 * Go to root folder: `npm run test`
