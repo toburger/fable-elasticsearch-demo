@@ -1,8 +1,9 @@
-# React Elmish Fable App
+# Fable Elasticsearch Demo
 
-This is a React Elmish Fable app with minimal dependencies.
+Saw this blog post about PureScript where the sample code implemented an Elasticsearch API to delete outdated indices:
+http://blog.leifbattermann.de/2020/01/26/purescript-case-study-and-guide-for-newcomers/
 
-This demo contains an emulated network call (`string` as result) with `Elmish` architecture. Random number is generated and based on that an emulated data or an error is returned.
+I was curious of how this sample would translate into F# code, and it turned out to be quite elegant!
 
 ## Requirements
 
@@ -13,5 +14,5 @@ This demo contains an emulated network call (`string` as result) with `Elmish` a
 ## Building and running the app
 
 * Install JS dependencies: `npm install`
-* Go into src: `dotnet build`
-* Go to root folder: `npm start`
+* Go into test: `dotnet build`
+* Go to root folder: `npm run test`
