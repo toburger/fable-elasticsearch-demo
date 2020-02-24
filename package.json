@@ -1,6 +1,10 @@
 {
-  "name": "App",
+  "name": "fable-elasticsearch-demo",
   "private": false,
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/toburger/fable-elasticsearch-demo"
+  },
   "scripts": {
     "start": "webpack-dev-server",
     "pretest": "fable-splitter tests -o dist/tests --commonjs",
